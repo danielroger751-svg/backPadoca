@@ -1,10 +1,14 @@
-﻿namespace backPadoca
+﻿using backPadoca.Model;
+
+namespace backPadoca
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Banco.connectAndTest(); 
+
+
         }
     }
 }
