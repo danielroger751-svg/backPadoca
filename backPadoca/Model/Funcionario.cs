@@ -8,5 +8,7 @@ namespace backPadoca.Model
 {
     internal class Funcionario
     {
+
+
     }
 }
