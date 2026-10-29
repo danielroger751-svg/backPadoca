@@ -16,6 +16,7 @@ namespace backPadaria.Model
         private string _nome;
         private string _cpf;
         private string _cargo;
+        internal static readonly int id;
 
         public int Id { get => _id; set => _id = value; }
         public string Nome { get => _nome; set => _nome = value; }

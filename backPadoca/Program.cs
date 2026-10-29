@@ -200,10 +200,7 @@ namespace backPadoca
 
             //VendaService.MenuVenda();
 
-            LoginFuncionario login = new LoginFuncionario(2, "jp_padoca@padariapaoecia.com.br", "deumaito", "Diretor");
-
-            LoginFuncionario.Inserir(login);
-
+            LoginFuncionario.fazerLoginMenu();
 
         }
     }

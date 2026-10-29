@@ -113,7 +113,17 @@ namespace backPadoca
             }
         }
 
+        internal static int executarComando(MySqlCommand cmd)
+        {
+            throw new NotImplementedException();
+        }
+
         internal static object ExecutarComandoComRetornoId(MySqlCommand cmd)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal static MySqlDataReader executarComRetornoDeDados(MySqlCommand cmd)
         {
             throw new NotImplementedException();
         }

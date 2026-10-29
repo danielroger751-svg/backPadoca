@@ -73,7 +73,7 @@ namespace backPadaria.Model
         {
             if (produto == null) throw new Exception("Produto Inexistente");
 
-            ItemCompra novoItem = new ItemCompra(produto.id, quantidade, produto.Preco);
+            ItemCompra novoItem = new ItemCompra(produto.Id, quantidade, produto.Preco);
             this._itens.Add(novoItem);
         }
 
