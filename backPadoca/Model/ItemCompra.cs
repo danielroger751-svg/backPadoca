@@ -1,11 +1,12 @@
-﻿using MySqlConnector;
+﻿using backPadoca;
+using MySqlConnector;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace backPadoca.Model
+namespace backPadaria.Model
 {
     internal class ItemCompra
     {

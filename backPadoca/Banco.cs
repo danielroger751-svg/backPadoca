@@ -42,7 +42,7 @@ namespace backPadoca
 
         // Declaração do método: público e estático, retorna um número inteiro (linhas afetadas)
         // e recebe um objeto MySqlCommand com a instrucao SQL ja configurada como paranetro.
-        public static int executarComando(MySqlCommand command)
+        public static int ExecutarComando(MySqlCommand command)
         {
             /* O bloco 'using' garante que a conexao sera automaticamente fechada e liberada
              da nenoria ao final do bloco, mesmo que ocorram erros no meio do processo.
@@ -78,7 +78,7 @@ namespace backPadoca
         // Metodo central para executar comandos de consulta (SELECT) no banco de dados.
         // Ele retorna um MySqlDataReader, que e uma especie de "ponteiro" para ler os dados linha por linha.
 
-        public static MySqlDataReader executarComRetornoDeDados(MySqlCommand command)
+        public static MySqlDataReader ExecutarComRetornoDeDados(MySqlCommand command)
         {
             // Cria a conexão com o banco.
             // ATENÇÃO: Aqui NÃO usamos o bloco 'using' para a conexão. Se usássemos, a conexão
@@ -111,6 +111,11 @@ namespace backPadoca
 
                 throw;
             }
+        }
+
+        internal static object ExecutarComandoComRetornoId(MySqlCommand cmd)
+        {
+            throw new NotImplementedException();
         }
     }           
 }
