@@ -39,7 +39,6 @@ namespace backPadoca.Model
         {
             this.pontos += pontos;
         }
-
-        //kjoijghtyhhjgy
+       
     }
 }
