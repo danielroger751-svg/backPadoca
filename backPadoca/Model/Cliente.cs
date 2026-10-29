@@ -16,6 +16,7 @@ namespace backPadoca.Model
         private string endereco;
         private int pontos;
 
+
         public Cliente(int id, string nome, string cpf, string telefone, string endereco, int pontos)
         {
             this.id = id;
